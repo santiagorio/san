@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7B2CBF;
+}
+
+.puffs-adultos {
+  width: 100%;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.header {
+  background-color: rgb(154, 3, 255);
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+}
+
+.img {
+  border: 0;
+  padding: 0%;
+}
+
+.datos {
+  display: flex;
+  display: inline-flex;
+}
+
+.barra ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.barra {
+  float: right;
+}
+
+.logo {
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.barra a {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  border: #2c27bc;
+}
+
+h2 {
+  background-color: orange;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.cabeseros {
+  background-color: #e0aaff;
+  border: 10px solid rgb(92, 53, 232);
+  height: 500px;
+  width: 400px;
+  border: #c77dff #7B2CBF rgb(138, 81, 191) rgb(134, 28, 205);
+}
+
+.sec2 {
+  color: #7B2CBF;
+  text-align: center;
+  size: 15px;
+  font-size: 25px;
+}
+
+form {
+  text-align: center;
+  text-decoration: #e0aaff;
+  display: flexbox;
+  margin-top: 0em;
+  border: 8px solid #0d0c0c;
+}
+
+iframe {
+  text-decoration: solid;
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(82, 1, 152);
+  color: #fff;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hoja de estilo de user-agent div {
+  display: block;
+}
+
+:host,
+:root {
+  --fa-style-family-classic: "Font Awesome 6 Free";
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+:host,
+:root {
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+}
+
+:host,
+:root {
+  --fa-style-family-brands: "Font Awesome 6 Brands";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+.sec {
+  background-color: #333;
+  width: 100%;
+  height: 700px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+}
+
+.subir {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: orange;
+  padding: 10px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: 3px solid orange;
+}
+
+.card__img {
+  height: 450px;
+  background-image: url(img/rojo.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-1 {
+  background-image: url(img/puff\ violeta.JPG);
+}
+
+.card-4 {
+  background-image: url(img/verde\ editado.jpeg);
+}
+
+.card-3 {
+  background-image: url(img/mesas\ 3\ colores.jpeg);
+}
+
+.card-2 {
+  background-image: url(img/boca.JPG);
+}
+
+.card-5 {
+  background-image: url(img/juego\ blanco.JPG);
+}
+
+.card-6 {
+  background-image: url(img/aqua\ a\ rallas.jpeg);
+}
+
+.card-7 {
+  background-image: url(img/chenill\ aqua\ puff.JPG);
+}
+
+.card-8 {
+  background-image: url(img/juego\ rojo.JPG);
+}
+
+.card-9 {
+  background-image: url(img/puff\ amarillo.JPG);
+}
+
+.card__title {
+  text-align: center;
+  color: orange;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.card__desc {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.card__boton {
+  color: #fff;
+  text-decoration: none;
+  background-color: orange;
+  text-shadow: 0 0 5px #000;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.card__boton:hover {
+  background-color: #000;
+}
+
+.card--xl {
+  width: 100%;
+}
+
+.card__boton--md {
+  text-transform: uppercase;
+}
+
+.card__img--img1 {
+  background-image: url(img/man-gbfe96f147_1920.jpg);
+  border: 3px solid orange;
+  height: 350px;
+}
+
+.card--md {
+  width: 50%;
+}
+
+.galeria {
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container {
+  border: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+table {
+  color: white;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead {
+  background: rgba(243, 140, 210, 0.4);
+}
+
+th {
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: rgba(243, 103, 199, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  color: #fff;
+  line-height: 1.6;
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: #222222;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .block {
+  grid-column: 1/3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+  background: #B70E21;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  background-color: #8306f1;
+}
+
+/* LARGE SIZE */
+@media (min-width: 700px) {
+  body {
+    padding: 0, 1;
+  }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
+.fondo-sobrenosotros {
+  margin-top: 100px;
+  width: 50%;
+  background-color: #333;
+  color: #fff;
+  border: 3px solid orange;
+}
+
+.imagen {
+  display: flex;
+  width: 480px;
+  height: 250px;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

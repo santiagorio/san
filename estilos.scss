@@ -291,7 +291,7 @@ section {
 
 .card__title {
     text-align: center;
-    color: orange;
+    color: $color4;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -307,7 +307,7 @@ section {
 .card__boton {
     color: #fff;
     text-decoration: none;
-    background-color: orange;
+    background-color:$color3;
     text-shadow: 0 0 5px #000;
     width: 100%;
     display: block;
@@ -330,7 +330,7 @@ section {
 
 .card__img--img1 {
     background-image: url(img/man-gbfe96f147_1920.jpg);
-    border: 3px solid orange;
+    border: 3px solid $color3;
     height: 350px;
 }
 
@@ -390,7 +390,7 @@ tbody tr:hover {
 }
 
 body {
-    background: #181818;
+    background:$color2;
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -424,7 +424,7 @@ ul {
 }
 
 .contact-form {
-    background: #222222;
+    background: $color1;
 }
 
 .contact-form form {
@@ -454,11 +454,11 @@ ul {
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid $color1;
 }
 
 .contact-form form button {
-    background: #B70E21;
+    background: $color3;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -466,7 +466,7 @@ ul {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: $color2;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -500,9 +500,6 @@ ul {
     }
 }
 
-.imagen {
-
-}
 
 
 .fondo-sobrenosotros {
@@ -510,9 +507,9 @@ ul {
     
     
 width: 50%;
-    background-color: #333;
+    background-color:$color2;
     color: #fff;
-    border: 3px solid orange;
+    border: 3px solid $color4;
 
 }
 .imagen{
@@ -523,10 +520,36 @@ padding: 20px;
 }
 
 
-@media(min-width: 1000px) {
-    .imagen {
-        height: 500;
-        width: 500;
-    }
+$color1:#D705F2;
+$color2:#C004D9;
+$color3:#7C038C;
+$color4:#460259;
+$color5:purple;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
