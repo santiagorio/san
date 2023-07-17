@@ -45,13 +45,60 @@ h2 {
 
 
 
+$ancho: 720px;
+$alto: 100px;
 
+$var1: 100%;
+$var2: 50%;
 
+$blue: darkblue;
+$green: #0f9243;
+$red: darkred;
+$black: black;
+$white: rgb(10, 5, 5);
 
+$xs: 16px;
+$small: 20px;
+$med: 40px;
+$large: 60px;
+$xl: 80px;
 
+// paleta colores
+$color1: #D705F2;
+$color2: #C004D9;
+$color3: #7C038C;
+$color4: #460259;
+$color5: purple;
 
+//dimensiones
 
-.img {
+$size1: 100%;
+$size1: 50%;
+$size1: 20px;
+$size1: 50px;
+
+//fonts
+
+$font1: cursive;
+$font2: serif;
+$font3: sans-serif;
+$font4: fantasy;
+$font5:  'Oswald', sans-serif;
+
+.footer{
+    background-color: #7B2CBF !important;
+    color: #D705F2!important;
+}
+.header{
+    background-color:#7C038C!important;
+    color: #8306f1 !important;
+    
+}
+.textoo{
+    color: #460259 !important;
+}
+
+*{
     border: 00;
     padding: 0%;
 }
@@ -178,16 +225,7 @@ hoja de estilo de user-agent div {
 }
 
 
-footer {
-    height: auto;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 footer p {
     margin-bottom: 20px;
@@ -307,7 +345,7 @@ section {
 .card__boton {
     color: #fff;
     text-decoration: none;
-    background-color:$color3;
+    background-color: $color3;
     text-shadow: 0 0 5px #000;
     width: 100%;
     display: block;
@@ -390,7 +428,7 @@ tbody tr:hover {
 }
 
 body {
-    background:$color2;
+    background: $color2;
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -504,52 +542,20 @@ ul {
 
 .fondo-sobrenosotros {
     margin-top: 100px;
-    
-    
-width: 50%;
-    background-color:$color2;
+
+
+    width: 50%;
+    background-color: $color2;
     color: #fff;
     border: 3px solid $color4;
 
 }
-.imagen{
+
+.imagen {
     display: flex;
     width: 480px;
     height: 250px;
-padding: 20px;
+    padding: 20px;
 }
-
-
-$color1:#D705F2;
-$color2:#C004D9;
-$color3:#7C038C;
-$color4:#460259;
-$color5:purple;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

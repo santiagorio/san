@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -19,133 +21,141 @@
 </head>
 
 <body>
-    <nav class="header navbar navbar-expand-md  ">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="../img/logo-removebg-preview (1).png" alt="60" height="50"
-                width="90"></a>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom header">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            </a>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">catalogo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../catalogo.html">nosotros</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="../contactanos.html">contactanos</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../index.html" class="nav-link " aria-current="page">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >inicio</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="../pages/nosotros.html" class="nav-link active">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >catalogo</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="catalogo.html" class="nav-link ">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >nosotros</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="contactanos.html" class="nav-link">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >Contactanos</font>
+                        </font>
+                    </a></li>
 
-                </li>
             </ul>
+        </header>
+
+
+
+    <div class=" marketing">
+
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">puffs adulto </font>
+                    </font><span class="text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">perfecto para tus eventos</font>
+                        </font>
+                    </span>
+                </h2>
+                <p class="lead">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">mini puff
+                            vídeo aquí. </font>
+                        <font style="vertical-align: inherit;">Imagina una prosa emocionante aquí.</font>
+                    </font>
+                </p>
+            </div>
+            <div class="col-md-5">
+                
+                <img src="../img/boquita.jpeg" alt="" height="500" width="700">
+            </div>
         </div>
-    </nav>
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
+        <hr class="featurette-divider">
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-
-
-
-
-
-
-        <section class="datos">
-            <div class="card">
-                <div class="card__img card-9"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">El puff cuadrado resulta ideal como elemento decorativo
-                    y funcional para tu salón.
-                    Podrás utilizarlo como reposapiés, como asiento adicional
-                    y tambien hay modelos para los más pequeños.
-                    Podrás disfrutar de tu puff cuadrado en un sinfín de situaciones.</p>
-                <a href="#" class="card__boton">mi boton</a>
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">mini puffs </font>
+                    </font><span class="text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">para los mas peques</font>
+                        </font>
+                    </span>
+                </h2>
+                <p class="lead">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">¿Otro largometraje? </font>
+                        <font style="vertical-align: inherit;">Por supuesto. </font>
+                        <font style="vertical-align: inherit;">Más contenido de marcador de posición aquí para darle una
+                            idea de cómo funcionaría este diseño con algún contenido real del mundo real en su lugar.
+                        </font>
+                    </font>
+                </p>
             </div>
-
-            <div class="card">
-                <div class="card__img card-8"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
+            <div class="col-md-5 order-md-1">
+                
+                    <img src="../img/juego ngre.JPG" alt="" height="500" width="700">
             </div>
+        </div>
 
-            <div class="card">
-                <div class="card__img card-7"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Y por último, este. </font>
+                    </font><span class="text-body-secondary">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Mate.</font>
+                        </font>
+                    </span>
+                </h2>
+                <p class="lead">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Y sí, este es el último bloque de contenido de marcador
+                            de posición representativo. </font>
+                        <font style="vertical-align: inherit;">Una vez más, no está destinado a ser leído realmente,
+                            simplemente aquí para darle una mejor vista de cómo se vería esto con algún contenido real.
+                        </font>
+                        <font style="vertical-align: inherit;">Tu contenido.</font>
+                    </font>
+                </p>
             </div>
-        </section>
-        <section class="datos">
-            <div class="card">
-                <div class="card__img card-6"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">El puff cuadrado resulta ideal como elemento decorativo
-                    y funcional para tu salón.
-                    Podrás utilizarlo como reposapiés, como asiento adicional
-                    y tambien hay modelos para los más pequeños.
-                    Podrás disfrutar de tu puff cuadrado en un sinfín de situaciones.</p>
-                <a href="#" class="card__boton">mi boton</a>
+            <div class="col-md-5">
+                <img src="../img/juego rojo.JPG" alt="" width="500" height="700">
             </div>
+        </div>
 
-            <div class="card">
-                <div class="card__img card-5"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
-            </div>
+        <hr class="featurette-divider">
 
-            <div class="card">
-                <div class="card__img card-4"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
-            </div>
-        </section>
-        <section class="datos">
-            <div class="card">
-                <div class="card__img card-3"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">El puff cuadrado resulta ideal como elemento decorativo
-                    y funcional para tu salón.
-                    Podrás utilizarlo como reposapiés, como asiento adicional
-                    y tambien hay modelos para los más pequeños.
-                    Podrás disfrutar de tu puff cuadrado en un sinfín de situaciones.</p>
-                <a href="#" class="card__boton">mi boton</a>
-            </div>
+        <!-- /END THE FEATURETTES -->
 
-            <div class="card">
-                <div class="card__img card-2"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
-            </div>
+    </div>
 
-            <div class="card">
-                <div class="card__img card-1"></div>
-                <h2 class="card__title">Mi titulo</h2>
-                <p class="card__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam minima
-                    consectetur in tempore, earum blanditiis. Minus excepturi cumque illo obcaecati.</p>
-                <a href="#" class="card__boton">mi boton</a>
-            </div>
-        </section>
+
+    
 
 
 
@@ -158,39 +168,50 @@
 
 
 
+    <!-- footer-->
 
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer">
+        <p class="col-md-4 mb-0 text-body-secondary">
+            <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;">© 2023 Compañía, Inc.</font>
+            </font>
+        </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <p>todos los derechos son reservados por copyright</p>
-            <div class="redes">
-                <a href="https://es-la.facebook.com/sanlaupuff/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.link/lddqli"><i class="fa-brands fa-whatsapp"></i><a
-                        href="https://www.instagram.com/sanlaupuff/"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-        </footer>
-
-        <a href="#" class="subir">
-            <i class="fa-solid fa-chevron-up"></i>
+        <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
         </a>
 
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">inicio</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="pages/nosotros.html" class="nav-link px-2 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">catalogo</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="pages/catalogo.html" class="nav-link px-2 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">nosotros</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="pages/contactanos.html" class="nav-link px-2 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">contactanos</font>
+                    </font>
+                </a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Acerca de</font>
+                    </font>
+                </a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

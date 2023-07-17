@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -18,204 +18,238 @@
     <link rel="stylesheet" href="../estilos.css">
 </head>
 
-<body class="bodi">
-    <nav class="header navbar navbar-expand-md  ">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="../img/logo-removebg-preview (1).png" alt="60" height="50"
-                width="90"></a>
+<body>
+    <div>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom header">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                
+            </a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="../index.html" class="nav-link " aria-current="page">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >inicio</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="../pages/nosotros.html" class="nav-link">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >catalogo</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="catalogo.html" class="nav-link active">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >nosotros</font>
+                        </font>
+                    </a></li>
+                <li class="nav-item"><a href="contactanos.html" class="nav-link">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;" class="textoo" >Contactanos</font>
+                        </font>
+                    </a></li>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/nosotros.html">catalogo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/catalogo.html">nosotros</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="../pages/contactanos.html">contactanos</a>
-
-                </li>
             </ul>
-        </div>
-    </nav>
-
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
         </header>
+    </div>
+
+
+    </div>
+    <div class=" my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Héroe fronterizo con imagen recortada y sombras</font>
+                    </font>
+                </h1>
+                <p class="lead">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Diseñe y personalice rápidamente sitios con capacidad de
+                            respuesta para dispositivos móviles con Bootstrap, el conjunto de herramientas de código
+                            abierto de front-end más popular del mundo, que incluye variables y mixins de Sass, un
+                            sistema de cuadrícula receptivo, amplios componentes preconstruidos y potentes complementos
+                            de JavaScript.</font>
+                    </font>
+                </p>
 
-
-        <div class="fondo-sobrenosotros">
-
-
-            <h1 class="titulo-quienessomos">¿Quiénes somos?
-            </h1>
-            <br>
-            <p class="texto-quienessomos ">
-                fusionamos arte y tecnología para dar vida a tus proyectos arquitectónicos.
-                Nuestro equipo de expertos en visualización y diseño crea mundos digitales que cautivan tus sentidos.
-                Cada plano de AutoCAD, modelo 3D de SketchUp y renderizado es realizado con pasión y atención al
-                detalle. Porque creemos que la calidad de tus renders refleja la calidad de tus proyectos, nos
-                esforzamos por brindarte imágenes que transmitan sensibilidad, elegancia y sofisticación. Eligenos y
-                disfruta de una colaboración cercana y profesional, resultados excepcionales y un servicio enfocado en
-                superar tus expectativas.
-                Descubre la excelencia en cada proyecto arquitectónico con nosotros.</p>
-
-
-            <img class="imagen" src="../img/boquita.jpeg" alt="" width="550" height="300">
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <p>todos los derechos son reservados por copyright</p>
-            <div class="redes">
-                <a href="https://es-la.facebook.com/sanlaupuff/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.link/lddqli"><i class="fa-brands fa-whatsapp"></i><a
-                        href="https://www.instagram.com/sanlaupuff/"><i class="fa-brands fa-instagram"></i></a>
             </div>
-        </footer>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="../img/boquita.jpeg" alt="" width="720">
+            </div>
+        </div>
+    </div>
 
-        <a href="#" class="subir">
-            <i class="fa-solid fa-chevron-up"></i>
-        </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- footer-->
+        
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer">
+                <p class="col-md-4 mb-0 text-body-secondary">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">© 2023 Compañía, Inc.</font>
+                    </font>
+                </p>
+
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">inicio</font>
+                            </font>
+                        </a></li>
+                    <li class="nav-item"><a href="pages/nosotros.html" class="nav-link px-2 text-body-secondary">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">catalogo</font>
+                            </font>
+                        </a></li>
+                    <li class="nav-item"><a href="pages/catalogo.html" class="nav-link px-2 text-body-secondary">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">nosotros</font>
+                            </font>
+                        </a></li>
+                    <li class="nav-item"><a href="pages/contactanos.html" class="nav-link px-2 text-body-secondary">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">contactanos</font>
+                            </font>
+                        </a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Acerca de</font>
+                            </font>
+                        </a></li>
+                </ul>
+            </footer>
 
 </body>
 

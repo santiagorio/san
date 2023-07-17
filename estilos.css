@@ -147,35 +147,26 @@ hoja de estilo de user-agent div {
   height: 700px;
 }
 
-footer {
-  height: auto;
-  width: 100%;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.footer{
+  background-color: #7B2CBF !important;
+  color: #D705F2!important;
+}
+.header{
+  background-color:#7C038C!important;
+  color: #8306f1 !important;
+  
+}
+.textoo{
+  color: #460259 !important;
 }
 
-footer p {
-  margin-bottom: 20px;
-}
+
 
 .fa-brands,
 .fab {
   font-weight: 400;
 }
 
-.subir {
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  background-color: orange;
-  padding: 10px;
-  box-shadow: 0 0 5px #fff, 0 0 5px #fff;
-  color: #fff;
-}
 
 h2 {
   text-align: center;
@@ -270,6 +261,7 @@ section {
 .card__boton:hover {
   background-color: #000;
 }
+
 
 .card--xl {
   width: 100%;
@@ -455,5 +447,7 @@ ul {
   height: 250px;
   padding: 20px;
 }
-
+.marketing{
+  padding: 20px;
+}
 /*# sourceMappingURL=estilos.css.map */
