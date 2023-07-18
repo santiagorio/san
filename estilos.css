@@ -37,7 +37,21 @@ h2 {
   padding: 20px;
 }
 
-.img {
+.footer {
+  background-color: #7B2CBF !important;
+  color: #D705F2 !important;
+}
+
+.header {
+  background-color: #7C038C !important;
+  color: #8306f1 !important;
+}
+
+.textoo {
+  color: #460259 !important;
+}
+
+* {
   border: 0;
   padding: 0%;
 }
@@ -45,6 +59,10 @@ h2 {
 .datos {
   display: flex;
   display: inline-flex;
+}
+
+.imagen {
+  width: 100%;
 }
 
 .barra ul li {
@@ -120,25 +138,18 @@ h2 {
   box-sizing: border-box;
 }
 
-hoja de estilo de user-agent div {
-  display: block;
-}
-
-:host,
-:root {
-  --fa-style-family-classic: "Font Awesome 6 Free";
-  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
-}
-
-:host,
-:root {
-  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
-}
-
-:host,
-:root {
-  --fa-style-family-brands: "Font Awesome 6 Brands";
-  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+.caja {
+  height: 350px;
+  width: 350%;
+  background-color: purple;
+  border: 2px solid #460259;
+  color: #C004D9;
+  text-align: center;
+  line-height: 120px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  flex-basis: 280px;
 }
 
 .sec {
@@ -147,26 +158,24 @@ hoja de estilo de user-agent div {
   height: 700px;
 }
 
-.footer{
-  background-color: #7B2CBF !important;
-  color: #D705F2!important;
+footer p {
+  margin-bottom: 20px;
 }
-.header{
-  background-color:#7C038C!important;
-  color: #8306f1 !important;
-  
-}
-.textoo{
-  color: #460259 !important;
-}
-
-
 
 .fa-brands,
 .fab {
   font-weight: 400;
 }
 
+.subir {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: orange;
+  padding: 10px;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff;
+  color: #fff;
+}
 
 h2 {
   text-align: center;
@@ -196,89 +205,40 @@ section {
   background-position: center;
 }
 
-.card-1 {
+.caja1 {
   background-image: url(img/puff\ violeta.JPG);
 }
 
-.card-4 {
+.caja4 {
   background-image: url(img/verde\ editado.jpeg);
 }
 
-.card-3 {
+.caja3 {
   background-image: url(img/mesas\ 3\ colores.jpeg);
 }
 
-.card-2 {
+.caja2 {
   background-image: url(img/boca.JPG);
 }
 
-.card-5 {
+.caja5 {
   background-image: url(img/juego\ blanco.JPG);
 }
 
-.card-6 {
+.caja6 {
   background-image: url(img/aqua\ a\ rallas.jpeg);
 }
 
-.card-7 {
+.caja7 {
   background-image: url(img/chenill\ aqua\ puff.JPG);
 }
 
-.card-8 {
+.caja8 {
   background-image: url(img/juego\ rojo.JPG);
 }
 
-.card-9 {
+.caja9 {
   background-image: url(img/puff\ amarillo.JPG);
-}
-
-.card__title {
-  text-align: center;
-  color: orange;
-  text-transform: uppercase;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-
-.card__desc {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: justify;
-  margin-bottom: 15px;
-}
-
-.card__boton {
-  color: #fff;
-  text-decoration: none;
-  background-color: orange;
-  text-shadow: 0 0 5px #000;
-  width: 100%;
-  display: block;
-  text-align: center;
-  padding: 10px;
-}
-
-.card__boton:hover {
-  background-color: #000;
-}
-
-
-.card--xl {
-  width: 100%;
-}
-
-.card__boton--md {
-  text-transform: uppercase;
-}
-
-.card__img--img1 {
-  background-image: url(img/man-gbfe96f147_1920.jpg);
-  border: 3px solid orange;
-  height: 350px;
-}
-
-.card--md {
-  width: 50%;
 }
 
 .galeria {
@@ -329,18 +289,11 @@ tbody tr:hover {
 }
 
 body {
-  background: #181818;
+  background: #C004D9;
   color: #fff;
   line-height: 1.6;
   font-family: "Quicksand", sans-serif;
   padding: 0;
-}
-
-.container {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em;
 }
 
 ul {
@@ -362,7 +315,7 @@ ul {
 }
 
 .contact-form {
-  background: #222222;
+  background: #D705F2;
 }
 
 .contact-form form {
@@ -392,11 +345,11 @@ ul {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #D705F2;
 }
 
 .contact-form form button {
-  background: #B70E21;
+  background: #7C038C;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
@@ -404,7 +357,7 @@ ul {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-  background: #d63031;
+  background: #C004D9;
   color: #fff;
   transition: background-color 1s ease-out;
   outline: 0;
@@ -415,39 +368,49 @@ ul {
   background-color: #8306f1;
 }
 
-/* LARGE SIZE */
-@media (min-width: 700px) {
-  body {
-    padding: 0, 1;
-  }
-  .contact-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .contact-wrapper > * {
-    padding: 2em;
-  }
-  .contact-info h4,
-  .contact-info ul,
-  .contact-info p {
-    text-align: left;
-  }
-}
 .fondo-sobrenosotros {
   margin-top: 100px;
   width: 50%;
-  background-color: #333;
+  background-color: #C004D9;
   color: #fff;
-  border: 3px solid orange;
+  border: 3px solid #460259;
 }
 
-.imagen {
-  display: flex;
-  width: 480px;
-  height: 250px;
+footer {
+  height: auto;
+  width: 100%;
+  background-color: #C004D9;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Reenie beanie, cursive;
+  justify-content: center;
+}
+
+header {
+  background-color: #9d0ee5;
+  padding: 10px 10px;
+  font-size: 25px;
+}
+
+nav {
+  background-color: #7C038C !important;
+}
+
+.my-5 {
   padding: 20px;
 }
-.marketing{
-  padding: 20px;
+
+.caja {
+  background-size: cover;
+  background-position: center;
 }
+
+.contenedor-2 {
+  width: 150% !important;
+  height: 200px;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=estilos.css.map */

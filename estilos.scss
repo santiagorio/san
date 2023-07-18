@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #7B2CBF;
+    background-color: $color4;
 }
 
 
@@ -83,22 +83,24 @@ $font1: cursive;
 $font2: serif;
 $font3: sans-serif;
 $font4: fantasy;
-$font5:  'Oswald', sans-serif;
+$font5: 'Oswald', sans-serif;
 
-.footer{
+.footer {
     background-color: #7B2CBF !important;
-    color: #D705F2!important;
+    color: #D705F2 !important;
 }
-.header{
-    background-color:#7C038C!important;
+
+.header {
+    background-color: #7C038C !important;
     color: #8306f1 !important;
-    
+
 }
-.textoo{
+
+.textoo {
     color: #460259 !important;
 }
 
-*{
+* {
     border: 00;
     padding: 0%;
 }
@@ -108,7 +110,9 @@ $font5:  'Oswald', sans-serif;
     display: inline-flex;
 }
 
-
+.imagen {
+    width: 100%;
+}
 
 .barra ul li {
     list-style: none;
@@ -151,13 +155,7 @@ h2 {
 }
 
 
-.cabeseros {
-    background-color: #e0aaff;
-    border: 10px solid rgb(92, 53, 232);
-    height: 500px;
-    width: 400px;
-    border: #c77dff #7B2CBF rgb(138, 81, 191) rgb(134, 28, 205);
-}
+
 
 .sec2 {
     color: #7B2CBF;
@@ -196,230 +194,6 @@ h2 {
     box-sizing: border-box;
 }
 
-hoja de estilo de user-agent div {
-    display: block;
-}
-
-:host,
-:root {
-    --fa-style-family-classic: "Font Awesome 6 Free";
-    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
-}
-
-:host,
-:root {
-    --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
-}
-
-:host,
-:root {
-    --fa-style-family-brands: "Font Awesome 6 Brands";
-    --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
-}
-
-
-.sec {
-    background-color: #333;
-    width: 100%;
-    height: 700px;
-}
-
-
-
-
-footer p {
-    margin-bottom: 20px;
-}
-
-.fa-brands,
-.fab {
-    font-weight: 400;
-}
-
-.subir {
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    background-color: orange;
-    padding: 10px;
-    box-shadow: 0 0 5px #fff, 0 0 5px #fff;
-    color: #fff;
-}
-
-
-h2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    text-transform: uppercase;
-}
-
-
-
-section {
-    display: flex;
-    justify-content: center;
-
-    gap: 20px;
-}
-
-.card {
-    width: 30%;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    border: 3px solid orange;
-}
-
-.card__img {
-    height: 450px;
-    background-image: url(img/rojo.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-.card-1 {
-    background-image: url(img/puff\ violeta.JPG);
-
-}
-
-.card-4 {
-    background-image: url(img/verde\ editado.jpeg);
-
-}
-
-.card-3 {
-    background-image: url(img/mesas\ 3\ colores.jpeg);
-}
-
-.card-2 {
-    background-image: url(img/boca.JPG);
-
-
-}
-
-.card-5 {
-    background-image: url(img/juego\ blanco.JPG);
-
-}
-
-.card-6 {
-    background-image: url(img/aqua\ a\ rallas.jpeg);
-
-
-}
-
-.card-7 {
-    background-image: url(img/chenill\ aqua\ puff.JPG);
-
-
-}
-
-.card-8 {
-    background-image: url(img/juego\ rojo.JPG);
-
-
-}
-
-.card-9 {
-    background-image: url(img/puff\ amarillo.JPG);
-
-
-}
-
-.card__title {
-    text-align: center;
-    color: $color4;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    margin-bottom: 15px;
-}
-
-.card__desc {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: justify;
-    margin-bottom: 15px;
-}
-
-.card__boton {
-    color: #fff;
-    text-decoration: none;
-    background-color: $color3;
-    text-shadow: 0 0 5px #000;
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding: 10px;
-}
-
-.card__boton:hover {
-    background-color: #000;
-}
-
-.card--xl {
-    width: 100%;
-}
-
-.card__boton--md {
-
-    text-transform: uppercase;
-}
-
-.card__img--img1 {
-    background-image: url(img/man-gbfe96f147_1920.jpg);
-    border: 3px solid $color3;
-    height: 350px;
-}
-
-.card--md {
-    width: 50%;
-}
-
-.galeria {
-    width: 100%;
-    background-color: gray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 25px;
-}
-
-.container {
-    border: solid 1px rgba(255, 255, 255, 0.2);
-}
-
-table {
-    color: white;
-    font-size: 14px;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-thead {
-    background: rgba(243, 140, 210, 0.4);
-}
-
-th {
-    padding: 20px 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-td {
-    padding: 15px;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-}
-
-
-tbody tr {
-    cursor: pointer;
-}
-
-tbody tr:hover {
-    background: rgba(243, 103, 199, 0.4);
-}
-
 
 
 
@@ -435,12 +209,7 @@ body {
     padding: 0;
 }
 
-.container {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-}
+
 
 ul {
     list-style: none;
@@ -453,109 +222,88 @@ ul {
 }
 
 
-.contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-}
 
-.contact-wrapper>* {
-    padding: 1em;
-}
 
-.contact-form {
-    background: $color1;
-}
 
-.contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
-.contact-form form label {
-    display: block;
-}
 
-.contact-form form p {
-    margin: 0;
-    padding: 1em;
-}
-
-.contact-form form .block {
-    grid-column: 1 / 3;
-}
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
+footer {
+    height: auto;
     width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid $color1;
+    background-color: #C004D9;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Reenie beanie, cursive;
+    justify-content: center;
 }
 
-.contact-form form button {
-    background: $color3;
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
+header {
+    background-color: #9d0ee5;
+    padding: 10px 10px;
+    font-size: 25px;
 }
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-    background: $color2;
-    color: #fff;
-    transition: background-color 1s ease-out;
-    outline: 0;
+nav{
+    background-color: $color3 !important;
 }
-
-/* CONTACT INFO */
-.contact-info {
-    background-color: #8306f1;
-}
-
-
-/* LARGE SIZE */
-@media(min-width: 700px) {
-    body {
-        padding: 0, 1;
-    }
-
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-
-    .contact-wrapper>* {
-        padding: 2em;
-    }
-
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
-}
-
-
-
-.fondo-sobrenosotros {
-    margin-top: 100px;
-
-
-    width: 50%;
-    background-color: $color2;
-    color: #fff;
-    border: 3px solid $color4;
-
-}
-
-.imagen {
-    display: flex;
-    width: 480px;
-    height: 250px;
+.my-5 {
     padding: 20px;
 }
+.caja{
+    background-size: cover;
+    background-position: center;
+}
 
 
+.contenedor-2
+{
+    width: 150% !important; 
+    height: 200px;
+    background-size: cover;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+.contacto {
+    background-color: #f7f7f7;
+}
+.text-center {
+    text-align: center!important;
+}
+@media (min-width: 768px){  
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+}
+
+mb-3 {
+    margin-bottom: 1rem!important;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color1;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, select {
+    text-transform: none;
+}
