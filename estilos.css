@@ -249,6 +249,12 @@ section {
   justify-content: center;
   padding: 25px;
 }
+.a{
+  height: 450px !important;
+}
+.b{
+  height: 450px !important;
+}
 
 .container {
   border: solid 1px rgba(255, 255, 255, 0.2);
@@ -468,4 +474,7 @@ nav {
   height: 100px;
   width: 100%;
 
+}
+.sanlaupuff{
+  color: #7C038C;
 }
