@@ -21,8 +21,6 @@ h3 {
   margin-bottom: 25px;
 }
 
-
-
 h2 {
   text-align: center;
   background-color: green;
@@ -35,8 +33,6 @@ h2 {
   color: #D705F2 !important;
 }
 
-
-
 .textoo {
   color: #460259 !important;
 }
@@ -45,7 +41,6 @@ h2 {
   display: flex;
   display: inline-flex;
 }
-
 
 img {
   border: #2c27bc;
@@ -59,8 +54,6 @@ h2 {
   text-transform: uppercase;
 }
 
-
-
 .sec2 {
   color: #7B2CBF;
   text-align: center;
@@ -70,14 +63,20 @@ h2 {
 
 form {
   text-align: center;
-  text-decoration: #e0aaff;
-  display: flexbox;
+  -webkit-text-decoration: #e0aaff;
+          text-decoration: #e0aaff;
   margin-top: 0em;
-  border: 8px solid #0d0c0c;
+}
+form::-moz-placeholder {
+  color: rgb(173, 173, 173);
+}
+form::placeholder {
+  color: rgb(173, 173, 173);
 }
 
 iframe {
-  text-decoration: solid;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
 
 h2 {
@@ -97,10 +96,6 @@ h2 {
   box-sizing: border-box;
 }
 
-
-
-
-
 section {
   display: flex;
   justify-content: center;
@@ -117,7 +112,6 @@ section {
 
 .card__img {
   height: 450px;
-
   background-size: cover;
   background-position: center;
 }
@@ -162,9 +156,6 @@ section {
 .caja9 {
   background-image: url(img/puff\ amarillo.JPG);
 }
-
-
-
 
 .container {
   border: solid 1px rgba(255, 255, 255, 0.2);
@@ -222,7 +213,6 @@ ul {
   font-size: 2em;
 }
 
-
 /* CONTACT INFO */
 .contact-info {
   background-color: #8306f1;
@@ -247,9 +237,6 @@ footer {
   font-family: Reenie beanie, cursive;
   justify-content: center;
 }
-
-
-
 
 .my-5 {
   padding: 20px;
@@ -284,17 +271,10 @@ footer {
   background-color: rgba(37, 211, 101, 0.768627451);
 }
 
-/*# sourceMappingURL=estilos.css.map */
-
-
-
-
-
 
 .sanlaupuff {
   color: #7C038C;
 }
-
 
 .navbar {
   padding: 2rem;
@@ -312,7 +292,6 @@ footer {
 
 .body {
   background-color: wheat !important;
-
 }
 
 main .c {
@@ -334,6 +313,15 @@ body {
 .c {
   background-color: #BBE1FA !important;
 }
-.navbar{
+
+.navbar {
   background-color: #1669a5;
 }
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=estilos.css.map */
