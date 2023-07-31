@@ -23,12 +23,6 @@ h3 {
 
 
 
-h2 {
-    text-align: center;
-    background-color: green;
-    color: #fff;
-    padding: 20px;
-}
 
 .footer {
     background-color: #7B2CBF !important;
@@ -51,13 +45,6 @@ img {
     border: #2c27bc;
 }
 
-h2 {
-    background-color: orange;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    text-transform: uppercase;
-}
 
 
 
@@ -72,7 +59,7 @@ form {
     text-align: center;
     text-decoration: #e0aaff;
     margin-top: 0em;
-    &::placeholder{
+    & input::placeholder{
         color: rgb(173, 173, 173);
     }
 }
@@ -88,15 +75,11 @@ h2 {
     padding: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
     text-transform: uppercase;
+
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 
@@ -126,6 +109,7 @@ section {
 .caja {
     width: 30%;
     height: 350px;
+    margin:30px ;
 }
 
 .caja1 {
@@ -348,4 +332,27 @@ body {
 
 
     }
+}
+.bg-jumbo{
+    background: #460259 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+a{
+    text-decoration: none ;
+    &:hover{
+        text-decoration:underline ;
+        color: #fff;
+    }
+}
+.lead{
+    margin: 10px;
+}
+.nav-link{
+    font-size: 24px;
+    color: #fff !important;
+}
+.row{
+    margin-right: 0 !important;
 }
