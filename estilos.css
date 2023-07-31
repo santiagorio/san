@@ -43,7 +43,8 @@ h2 {
 
 .datos {
   display: flex;
-  display: inline-flex;}
+  display: inline-flex;
+}
 
 
 img {
@@ -106,7 +107,7 @@ section {
   gap: 20px;
 }
 
-.card{
+.card {
   width: 30%;
   background-color: #333;
   color: #fff;
@@ -120,10 +121,12 @@ section {
   background-size: cover;
   background-position: center;
 }
-.caja{
+
+.caja {
   width: 30%;
   height: 350px;
 }
+
 .caja1 {
   background-image: url(img/puff\ violeta.JPG);
 }
@@ -262,6 +265,7 @@ footer {
   height: 200px;
   background-size: cover;
 }
+
 .whatsapp-button {
   position: fixed;
   bottom: 30px;
@@ -279,33 +283,57 @@ footer {
 .whatsapp-button:hover {
   background-color: rgba(37, 211, 101, 0.768627451);
 }
+
 /*# sourceMappingURL=estilos.css.map */
 
 
 
-.contacto {
-  background-color: #550bab;
-}
 
-.contacto2 {
-  height: 100px;
-  width: 100%;
 
-}
-.sanlaupuff{
+
+.sanlaupuff {
   color: #7C038C;
 }
 
 
 .navbar {
   padding: 2rem;
-  background-color:#7C038C;
+  background-color: #7C038C;
 }
+
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
 
-.contacto{
+.contacto {
   padding: 0% !important;
+}
+
+.body {
+  background-color: wheat !important;
+
+}
+
+main .c {
+  background-color: #BBE1FA !important;
+}
+
+.c {
+  background-color: #BBE1FA;
+}
+
+nav {
+  background-color: #BBE1FA;
+}
+
+body {
+  background-color: #9FBED4;
+}
+
+.c {
+  background-color: #BBE1FA !important;
+}
+.navbar{
+  background-color: #1669a5;
 }
