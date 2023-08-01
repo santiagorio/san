@@ -115,20 +115,20 @@ section {
 }
 
 .caja1 {
-    background-image: url(img/puff\ violeta.JPG);
+    background-image: url(img/puff\ blanco\ \(1\).JPG);
 
 }
 
 .caja4 {
-    background-image: url(img/verde\ editado.jpeg);
+    background-image: url(img/juego\ ngre.JPG);
 }
 
 .caja3 {
-    background-image: url(img/mesas\ 3\ colores.jpeg);
+    background-image: url(img/negro\ puff.JPG);
 }
 
 .caja2 {
-    background-image: url(img/boca.JPG);
+    background-image: url(img/puff\ rojo\.JPG);
 }
 
 .caja5 {
@@ -136,19 +136,7 @@ section {
 }
 
 .caja6 {
-    background-image: url(img/aqua\ a\ rallas.jpeg);
-}
-
-.caja7 {
-    background-image: url(img/chenill\ aqua\ puff.JPG);
-}
-
-.caja8 {
     background-image: url(img/juego\ rojo.JPG);
-}
-
-.caja9 {
-    background-image: url(img/puff\ amarillo.JPG);
 }
 
 
@@ -227,7 +215,7 @@ ul {
 footer {
     height: auto;
     width: 100%;
-    background-color: #C004D9;
+    background-color: #959595;
     color: #000000;
     text-align: center;
     padding: 20px;
@@ -298,33 +286,14 @@ footer {
     padding: 0% !important;
 }
 
-.body {
-    background-color: wheat !important;
-
-}
-
-main .c {
-    background-color: #BBE1FA !important;
-}
-
-.c {
-    background-color: #BBE1FA;
-}
-
-nav {
-    background-color: #BBE1FA;
-}
-
 body {
-    background-color: #9FBED4;
+    background-color: #525252;
 }
 
-.c {
-    background-color: #BBE1FA !important;
-}
+
 
 .navbar {
-    background-color: #1669a5;
+    background-color: #959595;
 }
 
 @media screen and (max-width: 767px) {
@@ -347,7 +316,7 @@ body {
 }
 
 .bg-jumbo {
-    background: #460259 !important;
+    background: #cfcfcf !important;
     border-radius: 0 !important;
     margin-bottom: 0 !important;
 }
@@ -390,9 +359,23 @@ i {
     letter-spacing: 50px;
     padding: 40px;
 }
-strong {
+strong {  
     font-weight: bolder;
 }
 .cuerpo-principal{
     font-size: 50px;
+}
+
+
+.navbar-brand {
+
+    justify-content: center;
+
+}
+
+.titulo-slp{
+    color: #000000;
+}
+.cat-nos{
+    font-size: 30px;
 }
