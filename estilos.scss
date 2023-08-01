@@ -59,7 +59,8 @@ form {
     text-align: center;
     text-decoration: #e0aaff;
     margin-top: 0em;
-    & input::placeholder{
+
+    & input::placeholder {
         color: rgb(173, 173, 173);
     }
 }
@@ -109,11 +110,13 @@ section {
 .caja {
     width: 30%;
     height: 350px;
-    margin:30px ;
+    margin: 30px;
+
 }
 
 .caja1 {
     background-image: url(img/puff\ violeta.JPG);
+
 }
 
 .caja4 {
@@ -329,30 +332,67 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
 
+    .caja {
+        height: 300%;
+        width: 100%;
+        display: none;
+    }
+
+    .bg-jumbo {
+        text-align: center;
 
     }
 }
-.bg-jumbo{
+
+.bg-jumbo {
     background: #460259 !important;
     border-radius: 0 !important;
     margin-bottom: 0 !important;
 }
 
-a{
-    text-decoration: none ;
-    &:hover{
-        text-decoration:underline ;
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
         color: #fff;
     }
 }
-.lead{
+
+.lead {
     margin: 10px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 24px;
-    color: #fff !important;
+
 }
-.row{
+
+.row {
     margin-right: 0 !important;
+}
+
+p {
+    font-family: Quicksand, cursive;
+    font-size: 20px;
+}
+
+i {
+    font-size: 50px;
+}
+.cuerpo-principal h2 {
+    font-size: 5.5rem;
+    color: #615151;
+    text-align: center;
+    font-family: Quicksand, cursive;
+    letter-spacing: 50px;
+    padding: 40px;
+}
+strong {
+    font-weight: bolder;
+}
+.cuerpo-principal{
+    font-size: 50px;
 }

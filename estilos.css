@@ -303,6 +303,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .caja {
+    height: 300%;
+    width: 100%;
+    display: none;
+  }
+  .bg-jumbo {
+    text-align: center;
+  }
 }
 .bg-jumbo {
   background: #460259 !important;
@@ -329,4 +337,14 @@ a:hover {
 
 .row {
   margin-right: 0 !important;
+}
+
+.img-cat {
+  height: 500;
+  width: 700;
+}
+@media screen and (max-width: 670px) {
+  .img-cat {
+    width: 100%;
+  }
 }/*# sourceMappingURL=estilos.css.map */
