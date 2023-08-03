@@ -257,10 +257,6 @@ footer {
   padding: 0% !important;
 }
 
-body {
-  background-color: #525252;
-}
-
 .navbar {
   background-color: #959595;
 }
@@ -275,12 +271,6 @@ body {
     text-align: center;
   }
 }
-.bg-jumbo {
-  background: #cfcfcf !important;
-  border-radius: 0 !important;
-  margin-bottom: 0 !important;
-}
-
 a {
   text-decoration: none;
 }
@@ -337,4 +327,27 @@ strong {
 
 .cat-nos {
   font-size: 30px;
+}
+
+.bg-jumbo {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  background-color: #525252 !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .caja {
+    width: 80%;
+    height: 350px;
+    margin: 30px;
+  }
+}
+body {
+  background-color: #525252 !important;
 }/*# sourceMappingURL=estilos.css.map */
